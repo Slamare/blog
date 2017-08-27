@@ -20,8 +20,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif }
 
 a {
   color: #333333;
@@ -76,21 +76,21 @@ body {
 
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 0 solid #7F9655;
   background-color: white;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif}
   #mainNav .navbar-brand {
-    font-weight: 800;
-    color: #777777; }
+    font-weight: 400;
+    color: #7F9655; }
   #mainNav .navbar-toggler {
     font-size: 12px;
-    font-weight: 800;
+    font-weight: 400;
     padding: 13px;
     text-transform: uppercase;
-    color: #777777; }
+    color: #7F9655; }
   #mainNav .navbar-nav > li.nav-item > a {
-    font-size: 12px;
-    font-weight: 800;
+    font-size: 90%;
+    font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase; }
   @media only screen and (min-width: 992px) {
@@ -154,13 +154,13 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .page-heading,
-  header.masthead .post-heading,
+  header.masthead .post/post-heading,
   header.masthead .site-heading {
     padding: 200px 0 150px;
     color: white; }
     @media only screen and (min-width: 768px) {
       header.masthead .page-heading,
-      header.masthead .post-heading,
+      header.masthead .post/post-heading,
       header.masthead .site-heading {
         padding: 200px 0; } }
   header.masthead .page-heading,
@@ -177,62 +177,63 @@ header.masthead {
       line-height: 1.1;
       display: block;
       margin: 10px 0 0;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-style: italic;
+      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif }
     @media only screen and (min-width: 768px) {
       header.masthead .page-heading h1,
       header.masthead .site-heading h1 {
         font-size: 80px; } }
-  header.masthead .post-heading h1 {
+  header.masthead .post/post-heading h1 {
     font-size: 35px; }
-  header.masthead .post-heading .meta,
-  header.masthead .post-heading .subheading {
+  header.masthead .post/post-heading .meta,
+  header.masthead .post/post-heading .subheading {
     line-height: 1.1;
     display: block; }
-  header.masthead .post-heading .subheading {
+  header.masthead .post/post-heading .subheading {
     font-size: 24px;
     font-weight: 600;
     margin: 10px 0 30px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  header.masthead .post-heading .meta {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif}
+  header.masthead .post/post-heading .meta {
     font-size: 20px;
     font-weight: 300;
     font-style: italic;
     font-family: 'Lora', 'Times New Roman', serif; }
-    header.masthead .post-heading .meta a {
+    header.masthead .post/post-heading .meta a {
       color: white; }
   @media only screen and (min-width: 768px) {
-    header.masthead .post-heading h1 {
+    header.masthead .post/post-heading h1 {
       font-size: 55px; }
-    header.masthead .post-heading .subheading {
+    header.masthead .post/post-heading .subheading {
       font-size: 30px; } }
 
-.post-preview > a {
+.post/post-preview > a {
   color: #333333; }
-  .post-preview > a:focus, .post-preview > a:hover {
+  .post/post-preview > a:focus, .post/post-preview > a:hover {
     text-decoration: none;
     color: #0085A1; }
-  .post-preview > a > .post-title {
+  .post/post-preview > a > .post/post-title {
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 10px; }
-  .post-preview > a > .post-subtitle {
+  .post/post-preview > a > .post/post-subtitle {
     font-weight: 300;
     margin: 0 0 10px; }
 
-.post-preview > .post-meta {
+.post/post-preview > .post/post-meta {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
   color: #777777; }
-  .post-preview > .post-meta > a {
+  .post/post-preview > .post/post-meta > a {
     text-decoration: none;
     color: #333333; }
-    .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+    .post/post-preview > .post/post-meta > a:focus, .post/post-preview > .post/post-meta > a:hover {
       text-decoration: underline;
       color: #0085A1; }
 
 @media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
+  .post/post-preview > a > .post/post-title {
     font-size: 36px; } }
 
 .floating-label-form-group {
@@ -302,7 +303,7 @@ footer {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif }
 
 .btn-primary {
   color: white;
