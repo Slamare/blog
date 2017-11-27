@@ -89,7 +89,7 @@ body {
     text-transform: uppercase;
     color: #7F9655; }
   #mainNav .navbar-nav > li.nav-item > a {
-    font-size: 90%;
+    font-size: 60%;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase; }
@@ -103,7 +103,7 @@ body {
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: rgba(255, 255, 255, 0.8); }
       #mainNav .navbar-nav > li.nav-item > a {
-        padding: 15px 20px;
+        padding: 15px 5px;
         color: white; }
         #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
           color: rgba(255, 255, 255, 0.8); } }
@@ -187,7 +187,7 @@ header.masthead {
     @media only screen and (min-width: 768px) {
       header.masthead .page-heading h1,
       header.masthead .site-heading h1 {
-        font-size: 80px; } }
+        font-size: 50px; } }
   header.masthead .post/post-heading h1 {
     font-size: 35px; }
   header.masthead .post/post-heading .meta,
